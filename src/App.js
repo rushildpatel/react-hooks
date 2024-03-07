@@ -5,16 +5,16 @@
 
 //useEffect
 // import HookCounter from "./components-useEffect/HookCounter";
+import DataFetch1 from "./complonents-fetch/DataFetch1";
+import DataFetch2 from "./complonents-fetch/DataFetch2";
 import HookCounter2 from "./components-useEffect/HookCounter2";
-import HookIntervalCounter from "./components-useEffect/HookIntervalCounter";
+import HookIntervalCounter from "./components-useEffect/HookIntervalCounter4";
 import HookMouse3 from "./components-useEffect/HookMouse3";
 
 function App() {
   return (
     <div className="App">
-      {/* <HookCounter2 /> */}
-      {/* <HookMouse3></HookMouse3> */}
-      <HookIntervalCounter />
+      <DataFetch2 />
     </div>
   );
 }
