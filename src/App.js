@@ -22,12 +22,15 @@ import C from "./components-contextAPI/C";
 
 // create a context
 export const UserContext = React.createContext();
+export const ChannelContext = React.createContext();
 
 function App() {
   return (
     <div className="App">
       <UserContext.Provider value={"Ittachi"}>
-        <C />
+        <ChannelContext.Provider value={"Rushil"}>
+          <C />
+        </ChannelContext.Provider>
       </UserContext.Provider>
     </div>
   );
