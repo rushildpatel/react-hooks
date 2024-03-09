@@ -1,4 +1,7 @@
 import React from "react";
+import Counter1 from "./components-useReducer/Counter1";
+import Counter2 from "./components-useReducer/Counter2";
+import Counter3 from "./components-useReducer/Counter3";
 
 // import HookCounter from "./components/HookCounter";
 // import HookCounter2 from "./components/HookCounter2";
@@ -18,20 +21,29 @@ import React from "react";
 
 //ContextAPI Hook
 // componentC -> componentE -> componentF
-import C from "./components-contextAPI/C";
+// import C from "./components-contextAPI/C";
 
 // create a context
-export const UserContext = React.createContext();
-export const ChannelContext = React.createContext();
+// export const UserContext = React.createContext();
+// export const ChannelContext = React.createContext();
 
+// function App() {
+//   return (
+//     <div className="App">
+//       <UserContext.Provider value={{ a: "Ittachi", b: "jacob" }}>
+//         <ChannelContext.Provider value={"Rushil"}>
+//           <C />
+//         </ChannelContext.Provider>
+//       </UserContext.Provider>
+//     </div>
+//   );
+// }
+
+/////////////////////////////////////////----USE REDUCER HOOK----///////////////////////////////////////////////////
 function App() {
   return (
     <div className="App">
-      <UserContext.Provider value={"Ittachi"}>
-        <ChannelContext.Provider value={"Rushil"}>
-          <C />
-        </ChannelContext.Provider>
-      </UserContext.Provider>
+      <Counter3 />
     </div>
   );
 }
