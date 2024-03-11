@@ -1,4 +1,5 @@
 import React from "react";
+import ParentComponent from "./componets-useCallback/ParentComponet";
 
 // import HookCounter from "./components/HookCounter";
 // import HookCounter2 from "./components/HookCounter2";
@@ -85,12 +86,21 @@ import React from "react";
 // }
 
 ///////////////////////////////////////////////////// ftech using USE REDUCER HOOK///////////////////////////////
-import FetchUseReducer from "./components-useReducerForFetch/FetchUseReducer";
+// import FetchUseReducer from "./components-useReducerForFetch/FetchUseReducer";
 
+// function App() {
+//   return (
+//     <div className="App">
+//       <FetchUseReducer />
+//     </div>
+//   );
+// }
+
+///////////////////////////////////////////////////// use Callback hook ////////////////////////////////////////
 function App() {
   return (
     <div className="App">
-      <FetchUseReducer />
+      <ParentComponent />
     </div>
   );
 }
