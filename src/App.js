@@ -1,5 +1,4 @@
 import React from "react";
-import ParentComponent from "./componets-useCallback/ParentComponet";
 
 // import HookCounter from "./components/HookCounter";
 // import HookCounter2 from "./components/HookCounter2";
@@ -96,11 +95,22 @@ import ParentComponent from "./componets-useCallback/ParentComponet";
 //   );
 // }
 
-///////////////////////////////////////////////////// use Callback hook ////////////////////////////////////////
+///////////////////////////////////////////////////// useCallback hook ////////////////////////////////////////
+// import ParentComponent from "./componets-useCallback/ParentComponet";
+// function App() {
+//   return (
+//     <div className="App">
+//       <ParentComponent />
+//     </div>
+//   );
+// }
+
+///////////////////////////////////////////////////// useMemo hook ////////////////////////////////////////
+import Counter from "./components-useMemo/Counter";
 function App() {
   return (
     <div className="App">
-      <ParentComponent />
+      <Counter />
     </div>
   );
 }
